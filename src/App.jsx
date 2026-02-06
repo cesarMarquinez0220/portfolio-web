@@ -83,7 +83,7 @@ function App() {
             {/* Botones de acción */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
-                href={profile.cvLink}
+                href={`${import.meta.env.BASE_URL}${profile.cvLink}`}
                 download
                 className="group flex items-center justify-center gap-2 px-8 py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-full font-bold shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all"
               >

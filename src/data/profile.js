@@ -15,7 +15,7 @@ export const profile = {
     "Entusiasta de la Robótica 🤖", 2000,
   ],
 
-  cvLink: "/cv-cesar-marquinez.pdf",
+  cvLink: "cv-cesar-marquinez.pdf",
   skills: [
     { name: "Flutter", color: "text-blue-600 dark:text-blue-400" },
     { name: "React", color: "text-sky-500 dark:text-sky-400" }
