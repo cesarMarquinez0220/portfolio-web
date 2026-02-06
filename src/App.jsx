@@ -65,7 +65,7 @@ function App() {
 
             {/* Animación de Texto */}
             <div className="text-2xl md:text-3xl text-slate-600 dark:text-slate-300 font-light mb-8 h-12">
-              <span className="mr-2">I build</span>
+              <span className="mr-2">Soy</span>
               <TypeAnimation
                 sequence={profile.roles} // Usamos los datos de profile.js
                 wrapper="span"
