@@ -1,7 +1,7 @@
 export const profile = {
   name: "Cesar Marquínez",
   role: "Desarrollador de Software",
-  bio: "Desarrollador de Software enfocado en transformar ideas en aplicaciones móviles y web escalables.",
+  bio: "Desarrollador de Software enfocado en diseñar y construir aplicaciones móviles y web escalables, con arquitectura limpia y experiencias en tiempo real.",
   location: "Panamá",
   email: "cesarmarquinez847@gmail.com",
   social: {
@@ -10,8 +10,8 @@ export const profile = {
   },
   roles: [
     "Desarrollador de Software", 2000,
-    "Desarrollador Móvil (Flutter)", 2000,
-    "Fullstack Developer", 2000,
+    "Desarrollador Móvil & Web (Flutter)", 2000,
+    "Frontend & Mobile Architect", 2000,
     "Entusiasta de la Robótica 🤖", 2000,
   ],
 
@@ -23,18 +23,45 @@ export const profile = {
   techStack: [
     {
       category: "Frontend & Mobile",
-      skills: ["Flutter", "React", "Tailwind CSS", "HTML/CSS", "JavaScript"]
+      skills: [
+        "Flutter (Mobile & Web)",
+        "Dart & Riverpod",
+        "Clean Architecture",
+        "React",
+        "Tailwind CSS",
+        "JavaScript"
+      ]
     },
     {
-      category: "Backend & Base de Datos",
-      skills: ["Java (Spring Boot)", "Python", "Laravel", "SQL (MySQL)"]
+      category: "Integraciones, Backend & Datos",
+      skills: [
+        "WebSockets (STOMP) & REST APIs",
+        "Google ML Kit (OCR / MRZ / QR)",
+        "Firebase (FCM / Auth)",
+        "Python",
+        "Laravel",
+        "SQL (MySQL / PostgreSQL)"
+      ]
     },
     {
-      category: "Herramientas & DevOps",
-      skills: ["Git & GitHub", "Docker", "Postman"]
+      category: "QA, Herramientas & DevOps",
+      skills: [
+        "Playwright & Maestro (E2E)",
+        "Docker & Nginx",
+        "Google Play Console",
+        "Git & GitHub",
+        "Postman"
+      ]
     }
   ],
   experiences: [
+    {
+      role: "Desarrollador Principal Frontend (Mobile & Web)",
+      company: "NAE — Ecosistema de Movilidad y Turismo",
+      period: "2025 - Actualidad",
+      description: "Arquitectura y desarrollo de App móvil (publicada en Google Play) y consola administrativa Web SPA en Flutter. Implementación de sistema de diseño compartido (nae_ui), motor White-Label multi-región, escaneo óptico OCR/MRZ/PDF417, sincronización en tiempo real con WebSockets/FCM y pruebas E2E con Playwright y Maestro.",
+      tech: ["Flutter", "Clean Architecture", "Riverpod", "ML Kit OCR", "WebSockets", "Playwright", "Docker"]
+    },
     {
       role: "Desarrollador Móvil (Flutter)",
       company: "Hospital Pacífica Salud",
