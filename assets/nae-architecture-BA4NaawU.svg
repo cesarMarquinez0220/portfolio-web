@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="blueAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="emeraldAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="purpleAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.35"/>
+    </pattern>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#38BDF8"/>
+    </marker>
+    <marker id="arrowEmerald" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#10B981"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#A855F7"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+
+  <!-- Decorative Glows -->
+  <circle cx="200" cy="140" r="180" fill="#2563EB" fill-opacity="0.12"/>
+  <circle cx="980" cy="520" r="220" fill="#7C3AED" fill-opacity="0.12"/>
+  <circle cx="600" cy="340" r="200" fill="#06B6D4" fill-opacity="0.08"/>
+
+  <!-- Top Header Banner -->
+  <rect x="48" y="32" width="1104" height="68" rx="14" fill="#0F172A" fill-opacity="0.85" stroke="#334155" stroke-width="1.5"/>
+  <rect x="68" y="48" width="10" height="36" rx="5" fill="url(#blueAccent)"/>
+  <text x="92" y="65" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" letter-spacing="0.5">
+    ARQUITECTURA CLIENTE MULTIPLATAFORMA — ECOSISTEMA NAE
+  </text>
+  <text x="92" y="85" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="500">
+    Monorepo Flutter (Mobile &amp; Web SPA) · Clean Architecture · Motor White-Label Multi-Región · OCR/MRZ · Tiempo Real
+  </text>
+
+  <!-- Play Store Badge Pill in SVG -->
+  <rect x="920" y="47" width="210" height="38" rx="19" fill="#064E3B" stroke="#10B981" stroke-width="1.2"/>
+  <circle cx="942" cy="66" r="5" fill="#34D399"/>
+  <text x="956" y="71" fill="#ECFDF5" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700">
+    En Producción · Google Play
+  </text>
+
+  <!-- ==================== COLUMN 1: APPS CLIENTE ==================== -->
+  <text x="60" y="138" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">
+    1. CAPA DE PRESENTACIÓN (APPS)
+  </text>
+
+  <!-- Card 1A: Mobile App -->
+  <rect x="48" y="152" width="320" height="225" rx="16" fill="url(#cardGrad)" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7"/>
+  <rect x="48" y="152" width="320" height="6" rx="3" fill="url(#blueAccent)"/>
+  <rect x="68" y="174" width="110" height="24" rx="6" fill="#0284C7" fill-opacity="0.25"/>
+  <text x="78" y="190" fill="#7DD3FC" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">
+    ANDROID / iOS
+  </text>
+  <text x="68" y="220" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700">
+    NAE Mobile App (Flutter)
+  </text>
+  <text x="68" y="244" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Roles: Conductores, Guías, Inspectores y Turistas
+  </text>
+  <text x="68" y="266" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Check-in en campo de pasajeros y manifiestos
+  </text>
+  <text x="68" y="288" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Verificación de pagos, pases QR y liquidaciones
+  </text>
+  <text x="68" y="310" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Tolerancia a conectividad intermitente en ruta
+  </text>
+  <rect x="68" y="330" width="280" height="30" rx="8" fill="#0F172A" stroke="#1E293B"/>
+  <text x="80" y="349" fill="#38BDF8" font-family="monospace" font-size="11.5" font-weight="600">
+    id: app.nae.com (Google Play Store)
+  </text>
+
+  <!-- Card 1B: Web Admin SPA -->
+  <rect x="48" y="400" width="320" height="225" rx="16" fill="url(#cardGrad)" stroke="#818CF8" stroke-width="1.5" stroke-opacity="0.7"/>
+  <rect x="48" y="400" width="320" height="6" rx="3" fill="url(#purpleAccent)"/>
+  <rect x="68" y="422" width="124" height="24" rx="6" fill="#4F46E5" fill-opacity="0.25"/>
+  <text x="78" y="438" fill="#C7D2FE" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">
+    FLUTTER WEB SPA
+  </text>
+  <text x="68" y="468" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700">
+    NAE Admin Console
+  </text>
+  <text x="68" y="492" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Dashboard analítico y métricas operativas
+  </text>
+  <text x="68" y="514" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Gestión de flotas, transportistas y guías
+  </text>
+  <text x="68" y="536" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Conciliación financiera, tasas y comisiones
+  </text>
+  <text x="68" y="558" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Selector dinámico de Territorio / Región
+  </text>
+  <rect x="68" y="578" width="280" height="30" rx="8" fill="#0F172A" stroke="#1E293B"/>
+  <text x="80" y="597" fill="#A5B4FC" font-family="monospace" font-size="11.5" font-weight="600">
+    Docker + Nginx (Cache-Busting SPA)
+  </text>
+
+  <!-- ==================== COLUMN 2: CORE ARCHITECTURE ==================== -->
+  <text x="440" y="138" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">
+    2. NÚCLEO COMPARTIDO &amp; ARQUITECTURA
+  </text>
+
+  <!-- Card 2A: Shared Design System nae_ui -->
+  <rect x="430" y="152" width="340" height="145" rx="16" fill="url(#cardGrad)" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="452" y="184" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700">
+    Design System Compartido (nae_ui)
+  </text>
+  <text x="452" y="208" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • +25 componentes atómicos reutilizables
+  </text>
+  <text x="452" y="230" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Motor White-Label (Theming dinámico por región)
+  </text>
+  <text x="452" y="252" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Heurísticas UX de Nielsen y diseño responsivo
+  </text>
+  <text x="452" y="274" fill="#6EE7B7" font-family="monospace" font-size="11.5">
+    packages/nae_ui → Mobile + Web Admin
+  </text>
+
+  <!-- Card 2B: Clean Architecture & State -->
+  <rect x="430" y="316" width="340" height="145" rx="16" fill="url(#cardGrad)" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="452" y="348" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700">
+    Clean Architecture + Riverpod 3
+  </text>
+  <text x="452" y="372" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Capas: Presentation → Domain → Data
+  </text>
+  <text x="452" y="394" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Interceptores HTTP (JWT Refresh + Territory Header)
+  </text>
+  <text x="452" y="416" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Aislamiento multi-región y control de permisos RBAC
+  </text>
+  <text x="452" y="438" fill="#7DD3FC" font-family="monospace" font-size="11.5">
+    X-Territory-Code &amp; Reactive Providers
+  </text>
+
+  <!-- Card 2C: Hardware & Optical Scanning -->
+  <rect x="430" y="480" width="340" height="145" rx="16" fill="url(#cardGrad)" stroke="#A855F7" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="452" y="512" fill="#C084FC" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700">
+    Escaneo Óptico e Identidad (ML Kit)
+  </text>
+  <text x="452" y="536" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • OCR de zona MRZ (ICAO 9303) para Pasaportes
+  </text>
+  <text x="452" y="558" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Parser PDF417 para Cédulas de Identidad
+  </text>
+  <text x="452" y="580" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Validación instantánea de Pases de Abordaje QR
+  </text>
+  <text x="452" y="602" fill="#D8B4FE" font-family="monospace" font-size="11.5">
+    Google ML Kit + Camera Pipeline
+  </text>
+
+  <!-- ==================== COLUMN 3: REAL-TIME, DOCS & QA ==================== -->
+  <text x="842" y="138" fill="#C084FC" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">
+    3. SERVICIOS, REPORTERÍA &amp; CALIDAD
+  </text>
+
+  <!-- Card 3A: Real-Time Sync -->
+  <rect x="832" y="152" width="320" height="145" rx="16" fill="url(#cardGrad)" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="854" y="184" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700">
+    Sincronización en Tiempo Real
+  </text>
+  <text x="854" y="208" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Clientes WebSockets (STOMP) con auto-reconexión
+  </text>
+  <text x="854" y="230" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Eventos en vivo de viajes, abordajes y pagos
+  </text>
+  <text x="854" y="252" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Notificaciones Push (Firebase Cloud Messaging)
+  </text>
+  <text x="854" y="274" fill="#7DD3FC" font-family="monospace" font-size="11.5">
+    WSS / STOMP + FCM Background Handlers
+  </text>
+
+  <!-- Card 3B: PDF & Excel Engine -->
+  <rect x="832" y="316" width="320" height="145" rx="16" fill="url(#cardGrad)" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="854" y="348" fill="#34D399" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700">
+    Motor de Documentos y Reportes
+  </text>
+  <text x="854" y="372" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Generación en cliente de Manifiestos de Viaje PDF
+  </text>
+  <text x="854" y="394" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Exportación contable y operativa en Excel (.xlsx)
+  </text>
+  <text x="854" y="416" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Comprobantes digitales y estados de liquidación
+  </text>
+  <text x="854" y="438" fill="#6EE7B7" font-family="monospace" font-size="11.5">
+    Dynamic PDF Builder + Financial Exports
+  </text>
+
+  <!-- Card 3C: E2E QA & Release Engineering -->
+  <rect x="832" y="480" width="320" height="145" rx="16" fill="url(#cardGrad)" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.7"/>
+  <text x="854" y="512" fill="#FBBF24" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700">
+    QA E2E &amp; Release Engineering
+  </text>
+  <text x="854" y="536" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Pruebas E2E Web automatizadas con Playwright
+  </text>
+  <text x="854" y="558" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Flujos móviles automatizados con Maestro
+  </text>
+  <text x="854" y="580" fill="#CBD5E1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5">
+    • Firma Android App Bundle (.aab) y Google Play
+  </text>
+  <text x="854" y="602" fill="#FDE68A" font-family="monospace" font-size="11.5">
+    Playwright · Maestro · Docker · Play Store
+  </text>
+
+  <!-- ==================== CONNECTORS ==================== -->
+  <!-- Mobile to Core -->
+  <path d="M 368 225 L 424 225" stroke="#10B981" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrowEmerald)"/>
+  <path d="M 368 265 L 424 365" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <path d="M 368 310 L 424 540" stroke="#A855F7" stroke-width="2" marker-end="url(#arrowPurple)"/>
+
+  <!-- Web to Core -->
+  <path d="M 368 465 L 424 255" stroke="#10B981" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrowEmerald)"/>
+  <path d="M 368 510 L 424 410" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Core to Services -->
+  <path d="M 770 365 L 826 225" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <path d="M 770 390 L 826 390" stroke="#10B981" stroke-width="2" marker-end="url(#arrowEmerald)"/>
+  <path d="M 770 420 L 826 540" stroke="#A855F7" stroke-width="2" marker-end="url(#arrowPurple)"/>
+</svg>
