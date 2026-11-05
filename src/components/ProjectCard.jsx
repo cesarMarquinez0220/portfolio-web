@@ -10,7 +10,8 @@ import {
   FaUserTie,
   FaLightbulb,
   FaCogs,
-  FaTrophy
+  FaTrophy,
+  FaRegCalendarAlt
 } from 'react-icons/fa';
 
 export const ProjectCard = ({ project }) => {
@@ -84,13 +85,19 @@ export const ProjectCard = ({ project }) => {
 
         {/* CONTENIDO */}
         <div className={`flex-1 p-6 sm:p-8 flex flex-col ${hasCaseStudy ? 'lg:w-5/12' : ''}`}>
-          {hasCaseStudy && (
-            <div className="mb-2">
+          <div className="flex flex-wrap items-center gap-2 mb-2">
+            {hasCaseStudy && (
               <span className="inline-block px-3 py-1 text-xs font-bold tracking-wide uppercase bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300 rounded-full border border-emerald-300/50 dark:border-emerald-700/50">
-                {project.caseStudy.badge}
+                Caso de Estudio
               </span>
-            </div>
-          )}
+            )}
+            {project.period && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold text-blue-700 dark:text-blue-300 bg-blue-50 dark:bg-blue-900/30 rounded-full border border-blue-200/70 dark:border-blue-800/70">
+                <FaRegCalendarAlt size={11} />
+                {project.period}
+              </span>
+            )}
+          </div>
 
           <div className="flex justify-between items-start gap-3 mb-3">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
@@ -132,13 +139,13 @@ export const ProjectCard = ({ project }) => {
               <div>
                 <span className="font-bold text-blue-600 dark:text-blue-400">Mi Rol: </span>
                 <span className="text-slate-700 dark:text-slate-300">
-                  Desarrollador Principal Frontend (Mobile & Web) y Arquitecto Cliente Multiplataforma.
+                  Desarrollador Flutter (Móvil y Web) — Monorepo Clean Architecture & UI Compartida.
                 </span>
               </div>
               <div>
                 <span className="font-bold text-emerald-600 dark:text-emerald-400">Impacto: </span>
                 <span className="text-slate-700 dark:text-slate-300">
-                  App publicada en Google Play, escaneo óptico OCR/MRZ/PDF417 en campo, monorepo White-Label multi-región y sincronización en tiempo real.
+                  App publicada en Google Play y App Store, escaneo óptico OCR/MRZ/PDF417 en campo, personalización multi-región y sincronización en tiempo real.
                 </span>
               </div>
             </div>

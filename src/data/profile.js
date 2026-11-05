@@ -1,7 +1,7 @@
 export const profile = {
   name: "Cesar Marquínez",
-  role: "Desarrollador de Software",
-  bio: "Desarrollador de Software enfocado en diseñar y construir aplicaciones móviles y web escalables, con arquitectura limpia y experiencias en tiempo real.",
+  role: "Desarrollador de Software Fullstack y Móvil (Flutter)",
+  bio: "Ingeniero de Sistemas y Computación. Desarrollador móvil y fullstack con aplicaciones Flutter publicadas en Google Play y App Store, integración de APIs REST, Clean Architecture y experiencias en tiempo real.",
   location: "Panamá",
   email: "cesarmarquinez847@gmail.com",
   social: {
@@ -11,7 +11,7 @@ export const profile = {
   roles: [
     "Desarrollador de Software", 2000,
     "Desarrollador Móvil & Web (Flutter)", 2000,
-    "Frontend & Mobile Architect", 2000,
+    "Fullstack Developer", 2000,
     "Entusiasta de la Robótica 🤖", 2000,
   ],
 
@@ -27,61 +27,61 @@ export const profile = {
         "Flutter (Mobile & Web)",
         "Dart & Riverpod",
         "Clean Architecture",
-        "React",
-        "Tailwind CSS",
-        "JavaScript"
+        "React & Angular",
+        "Laravel & Livewire",
+        "Tailwind CSS"
       ]
     },
     {
       category: "Integraciones, Backend & Datos",
       skills: [
-        "WebSockets (STOMP) & REST APIs",
+        "APIs REST & WebSockets (STOMP)",
         "Google ML Kit (OCR / MRZ / QR)",
-        "Firebase (FCM / Auth)",
+        "Firebase (Auth, Firestore, FCM)",
         "Python",
-        "Laravel",
-        "SQL (MySQL / PostgreSQL)"
+        "SQL (MySQL) & NoSQL",
+        "Power BI"
       ]
     },
     {
-      category: "QA, Herramientas & DevOps",
+      category: "Calidad, Seguridad & DevOps",
       skills: [
         "Playwright & Maestro (E2E)",
         "Docker & Nginx",
-        "Google Play Console",
-        "Git & GitHub",
-        "Postman"
+        "JWT & RBAC",
+        "Google Play & App Store",
+        "Git & GitHub"
       ]
     }
   ],
   experiences: [
     {
-      role: "Desarrollador Principal Frontend (Mobile & Web)",
-      company: "NAE — Ecosistema de Movilidad y Turismo",
-      period: "2025 - Actualidad",
-      description: "Arquitectura y desarrollo de App móvil (publicada en Google Play) y consola administrativa Web SPA en Flutter. Implementación de sistema de diseño compartido (nae_ui), motor White-Label multi-región, escaneo óptico OCR/MRZ/PDF417, sincronización en tiempo real con WebSockets/FCM y pruebas E2E con Playwright y Maestro.",
-      tech: ["Flutter", "Clean Architecture", "Riverpod", "ML Kit OCR", "WebSockets", "Playwright", "Docker"]
+      role: "Desarrollador Flutter (Móvil y Web)",
+      company: "Proyecto NAE",
+      period: "Mayo 2026 – Octubre 2026",
+      description: "Diseño de monorepo con Clean Architecture y librería UI compartida (nae_ui), personalización multi-región/marca blanca, escaneo de documentos oficiales (MRZ, PDF417 y QR) con Google ML Kit, sincronización en tiempo real (WebSockets/STOMP y FCM), pruebas E2E (Playwright y Maestro) y publicación en Google Play y App Store.",
+      tech: ["Flutter", "Clean Architecture", "Multi-Tenant", "ML Kit OCR", "WebSockets", "Playwright & Maestro", "Docker & Nginx"]
     },
     {
       role: "Desarrollador Móvil (Flutter)",
       company: "Hospital Pacífica Salud",
-      period: "2023 - Actualidad",
-      description: "Desarrollo de App educativa para lactancia materna con gamificación y Firebase.",
+      period: "2023 – 2025",
+      description: "Desarrollo en Flutter de una app educativa para promover la lactancia materna exclusiva en madres primerizas, integrando Firebase (Authentication, Firestore y Storage), contenido multimedia y mecánicas de gamificación.",
       tech: ["Flutter", "Firebase", "Gamification"]
     },
     {
-      role: "Desarrollador Fullstack",
-      company: "GITCE (Investigación UTP)",
-      period: "May 2025 - Jul 2025",
-      description: "Arquitectura de microservicios y dashboard predictivo de deserción con Power BI.",
-      tech: ["Microservicios", "Power BI", "Python"]
+      role: "Desarrollador Fullstack (Investigación)",
+      company: "Universidad Tecnológica de Panamá – GITCE",
+      period: "Mayo 2025 – Julio 2025",
+      description: "Desarrollo frontend y backend de una plataforma de predicción de deserción universitaria con arquitectura de microservicios, integrando un modelo de machine learning y tableros en Power BI.",
+      tech: ["Microservicios", "Machine Learning", "Power BI", "Python"]
     },
     {
       role: "Desarrollador Web",
-      company: "GITCE",
+      company: "GITCE – Grupo de Investigación en Tecnologías Computacionales",
       period: "2024",
-      description: "Plataforma de gestión de eventos bajo metodologías ágiles (Scrum).",
-      tech: ["Laravel", "Tailwind", "Scrum"]
+      description: "Desarrollo integral (frontend y backend) de una plataforma de gestión de eventos con PHP (Laravel y Livewire), registro de usuarios, notificaciones y paneles administrativos responsivos con Tailwind CSS bajo metodología Scrum.",
+      tech: ["Laravel", "Livewire", "Tailwind CSS", "Scrum"]
     }
   ],
   certifications: [
@@ -90,7 +90,7 @@ export const profile = {
       issuer: "Amazon Web Services (AWS)",
       date: "2025",
       link: "https://www.credly.com/badges/c44b14d0-8575-4a66-9510-1cf3ce13872b/linked_in?t=sz7ojx",
-      icon: "aws" // Identificador para el icono
+      icon: "aws"
     }
   ]
 };
